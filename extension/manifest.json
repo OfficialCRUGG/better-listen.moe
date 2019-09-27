@@ -1,0 +1,38 @@
+{
+    "manifest_version": 2,
+    "name": "Better listen.moe",
+    "version": "1.0",
+    "description": "A darker and more modern theme for listen.moe",
+    "icons": {
+        "8": "./img/logo-x8.png",
+        "16": "./img/logo-x16.png",
+        "24": "./img/logo-x24.png",
+        "32": "./img/logo-x32.png",
+        "48": "./img/logo-x48.png",
+        "128": "./img/logo-x128.png",
+        "512": "./img/logo-x512.png"
+    },
+    "permissions": [
+        "activeTab"
+    ],
+    "content_scripts": [
+        {
+            "matches": ["https://listen.moe/"],
+            "css": ["css/v1.css"],
+            "js": ["js/theme.js"]
+        }
+    ],
+    "browser_action": {
+        "default_icon": {
+            "8": "./img/logo-x8.png",
+            "16": "./img/logo-x16.png",
+            "24": "./img/logo-x24.png",
+            "32": "./img/logo-x32.png",
+            "48": "./img/logo-x48.png",
+            "128": "./img/logo-x128.png",
+            "512": "./img/logo-x512.png"
+        },
+        "default_title": "Better listen.moe",
+        "default_popup": "./popup/index.html"
+    }
+}

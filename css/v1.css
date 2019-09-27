@@ -1,0 +1,67 @@
+.platelet {
+    display: none;
+}
+.donateLink {
+    display: none;
+}
+div.mainBackground.jpop {
+    background-image: none;   
+}
+div.mainBackground.kpop {
+    background-image: none;   
+}
+html {
+    background-color: #000000;
+}
+div.playerContainer>div[data-v-699b39ee] {
+    background: #050505;
+}
+input.search[data-v-0306814a] {
+    background: #050505;
+    border: 0;
+}
+::placeholder {
+   color:    #fff;
+}
+button.primary {
+    background-color: #050505;
+    border: 0;
+    color: white;
+}
+select {
+    background-color: #050505;
+    border: 0;
+    color: white;
+}
+.table>.columns[data-v-3d9f43f6]:nth-child(odd) {
+    background: #050505;
+}
+.table>.columns[data-v-3d9f43f6]:nth-child(2n) {
+    background: #0f0f0f;
+}
+.post .post-content[data-v-6b41aee4] {
+    background: #050505;
+    color: white;
+}
+.contentBar[data-v-7a9c1fc4] {
+    background: #000000;
+}
+.profileContent .firstPanel .biography .editor[data-v-335c591c] {
+    color: white;
+    background: #050505;
+}
+.profileContent .secondPanel .stats[data-v-335c591c] {
+    color: white;
+    background: #050505;
+}
+div.card.dark {
+    background-color: #050505;
+}
+input, textarea {
+    border: 0;
+    border-radius: 0;
+    background: #0d0d0d;
+}
+button.primary[data-v-7fca2298] {
+    background: #0d0d0d;
+}

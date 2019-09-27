@@ -1,0 +1,6 @@
+# Better listen.moe
+A darker and more modern theme for listen.moe
+
+## Download
+* Chrome Webstore (Chrome, Opera, Edge Insider etc.) - Soon...
+* Firefox - Soon...
